@@ -16,5 +16,14 @@
         </div>
       </a>
     </div>
+
+    <div class="card p-5 bg-base-100 shadow-xl">
+      <a href="/journey/post/we-are-free-my-little-lyn">
+        <div class="card-body">
+          <H2 class="font-bold">We are free, my little lyn!</H2>
+          <p>Sail to the Internet stars and universe.</p>
+        </div>
+      </a>
+    </div>
   </div>
 </Display>
