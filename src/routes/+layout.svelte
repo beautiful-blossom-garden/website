@@ -7,12 +7,15 @@
   let { children } = $props();
 </script>
 
-<div class="w-1/2 mx-auto py-50">
-  <div class="flex">
-    <Menu />
+<div class="flex">
+  <Menu />
 
-    {@render children()}
+  <div class="w-full">
+    <div class="w-full p-10">
+      {@render children()}
+    </div>
+
+
   </div>
 </div>
-
 <Footer />
