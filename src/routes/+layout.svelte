@@ -1,4 +1,5 @@
 <script>
+  import Display from '../components/Display.svelte';
   import Footer from '../components/Footer.svelte';
   import Menu from '../components/Menu.svelte';
   import '../style.css';
@@ -10,12 +11,6 @@
 <div class="flex">
   <Menu />
 
-  <div class="w-full">
-    <div class="w-full p-10">
-      {@render children()}
-    </div>
-
-
-  </div>
+  <Display>{@render children()}</Display>
 </div>
 <Footer />
