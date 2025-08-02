@@ -7,6 +7,7 @@ COPY . .
 
 RUN npm ci
 
+RUN npm run prepare
 RUN npm run build
 RUN npm prune --production
 
