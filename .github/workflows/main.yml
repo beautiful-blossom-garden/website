@@ -5,6 +5,10 @@ on:
     branches:
       - 'main'
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   enter-nix-flake-shell:
     name: Enter nix flake shell
